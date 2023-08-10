@@ -1,5 +1,14 @@
 {
   "dependencies": {
     "mongodb": "^5.7.0"
-  }
+  },
+  "name": "mongoaltas-nodejs",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "node stockApp.js"
+  },
+  "author": "swapnil",
+  "license": "ISC",
+  "description": "stock company lookup"
 }
