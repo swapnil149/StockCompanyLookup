@@ -1,5 +1,6 @@
 # StockCompanyLookup
 Search company by name or ticker
+
 Website Link: https://stock-company-lookup-d3abbd2fe8f8.herokuapp.com/
 
 A Web App as follows:
