@@ -21,8 +21,9 @@ const server = http.createServer((req, res) => {
         });
     } else if (req.method === 'POST' && req.url === '/lookup') {
         let data = '';
-        req.on('data', chunk => {
-            data += chunk.toString();
+        req.on('data', chunk => { 
+            // chunk -- often few kilobytes in size
+            data += chunk.toString(); 
         });
 
         req.on('end', async () => {
